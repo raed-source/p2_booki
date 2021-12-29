@@ -1,4 +1,37 @@
-#searchbar{position:relative; width:1040px; height:auto;}
-.formulaire               {display:inline-block;}
-.formulaire .champ       {width:600px; height:35px;}
-.formulaire .bouton       { background-image: url(images/searchbar_button.png);background-repeat: no-repeat;width: 35px;height: 35px;padding: 0; }
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+img{
+border-radius: 5%;    
+    
+}
+
+footer{
+    flex-shrink: 0;
+    border-top: 1px;
+    width: 100%;
+    background:#1f1f1f1f ;
+    color: #333;
+}
+.contenu_footer{
+    width: 1200px;
+    margin: 0 auto;
+    display:flex ;
+    justify-content:center ;
+    align-items:flex-start ;
+    font-size: 20px ;
+    padding:50px 0 100px ;
+}
+.col{
+    padding: 20px 100px;
+}
+.col li {
+    list-style-type: none;
+    padding: 5px;
+    
+}
+.col a {
+    text-decoration: none;
+}
