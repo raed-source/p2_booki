@@ -1,220 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
 
-	<link rel="stylesheet" href="style.css">
+    <title>Booki</title>
+  </head>
 
-	<title>Booki</title>
-</head>
+  <body>
+    <div class="wrapper">
+      <header id="main-header">
+        <div id="logo" class="logo">
+          <img
+            src="./images/Booki.png"
+            width="159"
+            height="67"
+            alt="logo ire"
+            title="ire"
+          />
+        </div>
+        <nav id="main-nav" class="nav">
+          <a href="#">Hebergement</a>
+          <a href="#">Activités</a>
+        </nav>
+      </header>
+      <form action="" class="form_search">
+        <p>Searche <input type="text" placeholder="search" /></p>
+      </form>
+      <div class="slogan">
+        <h2>Trouver votre hébergement de rêve</h2>
+        <p>En plein centre ville ou en pleine nature</p>
+      </div>
 
-<body>
-	<div class="wrapper">
-		<header id="main-header">
+      <main id="main" class="main">
+        <section class="gauche">
+          <div class="image">
+            <img
+              src="./images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+              width="200px"
+              height="200px"
+              alt=""
+            />
+            <div class="rate">
+              <h4>Auberge La Cannebière</h4>
+              <h4>Nuit à partir de 25€</h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
 
-			<div id="logo" class="logo">
-				<img src="./images/Booki.png" width="159" height="67" alt="logo ire" title="ire">
-			</div>
-			<nav id="main-nav" class="nav">
+          <div>
+            <img
+              src="./images/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+              width="200px"
+              height="200px"
+              alt=""
+            />
+            <div class="rate">
+              <h4>Hotel du Port</h4>
+              <h4>Nuit à partir de 25€</h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+          <div>
+            <img
+              src="./images/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+              width="200px"
+              height="200px"
+              alt=""
+            />
+            <div class="rate">
+              <h4>Hotel les mouettes</h4>
+              <h4>Nuit à partir de 25€</h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+          <div>
+            <img
+              src="./images/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+              width="200px"
+              height="200px"
+              alt=""
+            />
+            <div class="rate">
+              <h4>Hotel Chez Amina</h4>
+              <h4>Nuit à partir de 25€</h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+          <div>
+            <img
+              src="./images/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+              width="200px"
+              height="200px"
+              alt=""
+            />
+            <div class="rate">
+              <h4></h4>
+              <h4>Auberge Le Panier</h4>
+              <h4>Nuit à partir de 25€</h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+          <div>
+            <img
+              src="./images/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+              width="200px"
+              height="200px"
+              alt=""
+            />
 
-				<a href="#">Hebergement</a>
-				<a href="#">Activités</a>
-			</nav>
+            <div class="rate">
+              <h4>Hotel de La Mer</h4>
+              <h4>Nuit à partir de 25€</h4>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+        </section>
+        <section class="droite">
+          <div class="image">
+            <img
+              src="./images/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+              width="184"
+              height="187"
+              alt=""
+              title=""
+            />
+            <img
+              src="./images/aw-creative-VGs8z60yT2c-unsplash.jpg"
+              width="184"
+              height="187"
+              alt=""
+              title=""
+            />
+            <img
+              src="./images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+              width="184"
+              height="187"
+              alt=""
+              title=""
+            />
+          </div>
+        </section>
+        <div class="clear"></div>
+        <section>
+          <div class="col-50 fl-l">
+            <div class="item-book fl-l">
+              <img
+                src="./images/Activités/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                width="120"
+                height="157"
+                alt="Bois"
+                title="Bois"
+              />
+              <p class="item-product-description">
+                Bois<br />
+                <a href="#" title="consulter">Consulter </a>
+              </p>
+            </div>
+            <div class="item-book fl-l">
+              <img
+                src="./images/Activités/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                width="120"
+                height="157"
+                alt="Sable"
+                title="Sable"
+              />
+              <p class="item-product-description">
+                Sable<br />
+                <a href="#" title="consulter">Consulter </a>
+              </p>
+            </div>
+            <div class="item-book fl-l">
+              <img
+                src="./images/Activités/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                idth="120"
+                height="157"
+                alt="Rivière"
+                title="Rivière"
+              />
+              <p class="item-product-description">
+                Rivière<br />
+                <a href="#" title="consulter">Consulter </a>
+              </p>
+            </div>
+            <div class="item-book fl-l">
+              <img
+                src="./images/Activités/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                idth="120"
+                height="157"
+                alt="Pierre"
+                title="Pierre"
+              />
+              <p class="item-product-description">
+                Pierre<br />
+                <a href="#" title="consulter">Consulter </a>
+              </p>
+            </div>
+            <div class="item-book fl-l">
+              <img
+                src="./images/Activités/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                idth="120"
+                height="157"
+                alt="Pierre"
+                title="Pierre"
+              />
+              <p class="item-product-description">
+                Pierre<br />
+                <a href="#" title="consulter">Consulter </a>
+              </p>
+            </div>
+            <div class="item-book fl-l">
+              <img
+                src="./images/Activités/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                idth="120"
+                height="157"
+                alt="Pierre"
+                title="Pierre"
+              />
+              <p class="item-product-description">
+                Pierre<br />
+                <a href="#" title="consulter">Consulter </a>
+              </p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="clear"></div>
+        </section>
+      </main>
 
-
-		</header>
-		<form action="" class="form_search">
-			<p>Searche <input type="text" placeholder="search"></p>
-		</form>
-		<div class="slogan">
-			<h2>Trouver votre hébergement de rêve</h2>
-			<p>En plein centre ville ou en pleine nature</p>
-		</div>
-
-		<main id="main" class="main">
-			<section class="gauche">
-
-				<div class="image">
-					<img src="./images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" width="200px" height="200px" alt="">
-					<div class="rate">
-					<h4>Auberge La Cannebière</h4>
-					<h4>Nuit à partir de 25€</h4>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star"></span>
-					<span class="fa fa-star"></span>
-					</div>
-				</div>
-
-				<div>
-					<img src="./images/fred-kleber-gTbaxaVLvsg-unsplash.jpg" width="200px" height="200px" alt="">
-					<div class="rate">
-					<h4>Hotel du Port</h4>
-					<h4>Nuit à partir de 25€</h4>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star"></span>
-					</div>
-				</div>
-				<div>
-					<img src="./images/marcus-loke-WQJvWU_HZFo-unsplash.jpg" width="200px" height="200px" alt="">
-					<div class="rate">
-					<h4>Hotel les mouettes</h4>
-					<h4>Nuit à partir de 25€</h4>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star"></span>
-					<span class="fa fa-star"></span>
-					</div>
-				</div>
-				<div>
-					<img src="./images/annie-spratt-Eg1qcIitAuA-unsplash.jpg" width="200px" height="200px" alt="">
-					<div class="rate">
-					<h4>Hotel Chez Amina</h4>
-					<h4>Nuit à partir de 25€</h4>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star"></span>
-					<span class="fa fa-star"></span>
-					</div>
-				</div>
-				<div>
-					<img src="./images/reisetopia-B8WIgxA_PFU-unsplash.jpg" width="200px" height="200px" alt="">
-					<div class="rate">
-					<h4></h4>
-					<h4>Auberge Le Panier</h4>
-					<h4>Nuit à partir de 25€</h4>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star"></span>
-					<span class="fa fa-star"></span>
-					</div>
-				</div>
-				<div>
-					<img src="./images/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" width="200px" height="200px" alt="">
-					
-					<div class="rate">
-					<h4>Hotel de La Mer</h4>
-					<h4>Nuit à partir de 25€</h4>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star"></span>
-					<span class="fa fa-star"></span>
-					</div>
-				</div>
-			</section>
-			<section class="droite">
-
-				<div class="image">
-					<img src="./images/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" width="184" height="187" alt=""
-						title="">
-					<img src="./images/aw-creative-VGs8z60yT2c-unsplash.jpg" width="184" height="187" alt="" title="">
-					<img src="./images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" width="184" height="187" alt=""
-						title="">
-
-				</div>
-
-			</section>
-			<div class="clear"></div>
-			</section>
-			<section>
-				<div class="col-50 fl-l">
-					<div class="item-book fl-l ">
-						<img src="./images/Activités/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" width="120" height="157"
-							alt="Bois" title="Bois">
-						<p class="item-product-description">
-							Bois<br>
-							<a href="#" title="consulter">Consulter </a>
-						</p>
-					</div>
-					<div class="item-book fl-l">
-						<img src="./images/Activités/paul-hermann-QFTrLdQIRhI-unsplash.jpg" width="120" height="157"
-							alt="Sable" title="Sable">
-						<p class="item-product-description">
-							Sable<br>
-							<a href="#" title="consulter">Consulter </a>
-						</p>
-					</div>
-					<div class="item-book fl-l">
-						<img src="./images/Activités/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" idth="120" height="157"
-							alt="Rivière" title="Rivière">
-						<p class="item-product-description">
-							Rivière<br>
-							<a href="#" title="consulter">Consulter </a>
-						</p>
-					</div>
-					<div class="item-book fl-l">
-						<img src="./images/Activités/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" idth="120"
-							height="157" alt="Pierre" title="Pierre">
-						<p class="item-product-description">
-							Pierre<br>
-							<a href="#" title="consulter">Consulter </a>
-						</p>
-					</div>
-					<div class="item-book fl-l">
-						<img src="./images/Activités/florian-wehde-xW9e8gdotxI-unsplash.jpg" idth="120" height="157"
-							alt="Pierre" title="Pierre">
-						<p class="item-product-description">
-							Pierre<br>
-							<a href="#" title="consulter">Consulter </a>
-						</p>
-					</div>
-					<div class="item-book fl-l">
-						<img src="./images/Activités/lena-paulin-wH2-EJoDcV0-unsplash.jpg" idth="120" height="157"
-							alt="Pierre" title="Pierre">
-						<p class="item-product-description">
-							Pierre<br>
-							<a href="#" title="consulter">Consulter </a>
-						</p>
-					</div>
-					<div class="clear"></div>
-				</div>
-				<div class="clear"></div>
-			</section>
-		</main>
-
-		<footer>
-			<div class="contenu_footer">
-				<div class="col">
-					<h3><a href="#">A propos</a></h3>
-					<ul class="a_propos">
-						<li>Fonctionalité du site</li>
-						<li>Conditions générales de vente</li>
-						<li>Données et confidentialité</li>
-					</ul>
-
-				</div>
-				<div class="col">
-					<h3><a href="#">Nos hébergements</a></h3>
-					<ul class="hebergement">
-						<li>Chart qualité</li>
-						<li>Soumettre votre hotel</li>
-					</ul>
-
-				</div>
-				<div class="col">
-					<h3><a href="#">Assitance</a></h3>
-					<ul class="assistance">
-						<li>Centre d'aide</li>
-						<li>Nous contacter</li>
-						<li></li>
-					</ul>
-
-				</div>
-
-			</div>
-		</footer>
-</body>
-
+      <footer>
+        <div class="contenu_footer">
+          <div class="col">
+            <h3><a href="#">A propos</a></h3>
+            <ul class="a_propos">
+              <li>Fonctionalité du site</li>
+              <li>Conditions générales de vente</li>
+              <li>Données et confidentialité</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3><a href="#">Nos hébergements</a></h3>
+            <ul class="hebergement">
+              <li>Chart qualité</li>
+              <li>Soumettre votre hotel</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3><a href="#">Assitance</a></h3>
+            <ul class="assistance">
+              <li>Centre d'aide</li>
+              <li>Nous contacter</li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
