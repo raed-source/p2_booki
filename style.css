@@ -46,24 +46,22 @@ header .nav a{
 .checked{
     color: rgb(147, 138, 228);
 }
+.main{
+  display: flex;
+}
 
 .gauche {
-   
-   border: 1px rgb(145, 16, 16) solid;
-   background-color: gray;
-   width: 60%;
-   height: ;
-   padding: 48px 64px;
-   position: relative;
-   z-index: -1;
+   display: flex;
+   justify-content: space-around;
+  flex-wrap: wrap;
+   border: #1f1f1f1f 1px solid;
+   max-width: 50%;
+   height: 50%;
 }
-section img{
-    position: relative;
-    top: 59px;
-   border:5px #fff solid;
-   border-radius: 5px;
-    z-index: -1;
+.droite{
+  display: flex;
 }
+
 .rate{
     background: #fff;
     width: 200px ;
