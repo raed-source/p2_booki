@@ -2,13 +2,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family:'Times New Roman', Times, serif ;
+    font-family:'Raleway', sans-serif;
     text-decoration: none;
     outline: none;
     text-transform: capitalize;
     transition: all .2s linear;
 
 }
+/*--------------------------------------------------header---------------------------------------------------------------------------------*/
 header{
     /*position: fixed;*/
     top: 0;left: 0; right: 0;
@@ -23,20 +24,11 @@ header .nav a{
     padding: .5rem 1.7rem;
     border-radius: .5rem;
 }
-header .nav a:hover{
-    color: #1f1f1f1f;
-    background-color:aquamarine;
-}
-header .logo:hover{
-    transform: rotate(360deg);
-}
 /* -------------------------------------------------partie header menu logo haut fini---------------------------------------------------------------------------*/
 .checked{
     color: rgb(147, 138, 228);
 }
-form .form_search{
-    
-}
+
 .gauche {
    
    border: 1px rgb(145, 16, 16) solid;
