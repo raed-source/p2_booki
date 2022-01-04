@@ -53,8 +53,9 @@ header .nav a{
 /* -----------------------------------------------------bas--------------------------------------------------- */
 .bas{
     display: flex;
+    justify-content: space-around;
 }
-
+/* ---------------------------------------------------gauche hebergement--------------------------------------*/
 .gauche {
    display: flex;
    justify-content: space-around;
@@ -63,8 +64,13 @@ header .nav a{
    max-width: 50%;
    height: 50%;
 }
+/* ------------------------------------------------droite activite------------------------------------------------------- */
 .droite{
   display: flex;
+  justify-content:;
+}
+.image_droite{
+    display: flex;
 }
 
 .rate{
