@@ -29,34 +29,117 @@ header .nav a{
   padding: 20px 20px;
 }
 
-/* ---------------------------------------------form recherche emplacement----------------------------------------------------------------------------- */
-.form_search{
-  padding: ;
-  margin:;
-  display: flex;
+/* ---------------------------------------------form recherche ----------------------------------------------------------------------------- */
+.search {
+display: flex;
+width: 400px;
+border-radius: 10px;
 }
 .emplacement{
+    border-radius: 10px 0 0 10px;
     width: 50px;
     height: 50px;
-    text-align: center;
-    background: blue;
-    border-radius: 10px 0 0 10Px;
+    background-color: #f2f2f2;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.search input{
+    height:50px;
+    text-decoration: none;
+}
+icon{
 }
 .btn{
     width: 100px;
     height: 50px;
-    background: blue;
-    border-radius: 0 10px 10px 0px;
+    background-color:rgb(180, 180, 233) ;
+    border:1px solid rgb(180, 180, 233);
+    border-radius: 0 10px 10px 0px ;
 }
 /* ---------------------------------------------------filtre-------------------------------------------------------------------------- */
-.filtre input{
-  border-radius: 10px;
-  width: 200px;
-  height: 40px;
-  display:;
-  margin: 15px ;
+.filtre {
+    display:flex;
+   
+    
 }
-/* -------------------------------------------------partie header menu logo haut fini---------------------------------------------------------------------------*/
+.titre{
+display: flex;
+align-items: center;
+}
+.filtre .fil{
+    padding: 20px 10px;
+    margin: 10px 10px;
+    border: 3px #f2f2f2 solid;
+    border-radius: 40px  ;
+    width: 230px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.filtre span{
+    margin: 15px;
+}
+.filtre .fil_icon{
+    background-color: #f2f2f2;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin: -11px  ;
+    padding: 20px;
+}
+
+/* --------------------------------------------------para_icon------------------------------------------------------------------------- */
+.para{
+display: flex;
+align-items: center;
+}
+.para p{
+
+}
+.para .para_icon{
+width: 25px;
+height: 25px;
+color: #0065fc;
+border: 1px rgb(180, 180, 233) solid;
+border-radius: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/* -------------------------------------------------partie top gauche et adroite---------------------------------------------------------------------------*/
+.gauche {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 60%;
+    height: 50%;
+ }
+.image{
+    width: 30%;
+    height: auto;
+    border-radius: 20px;
+    background-color: white;
+    padding: 1%;
+}
+.image img{
+    object-fit: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.image .rate{
+    width: 90%;
+    display: block;
+    padding: 5px;
+}
+
+
 .checked{
     color: rgb(147, 138, 228);
 }
@@ -70,14 +153,7 @@ header .nav a{
     justify-content: space-around;
 }
 /* ---------------------------------------------------gauche hebergement--------------------------------------*/
-.gauche {
-   display: flex;
-   justify-content: space-around;
-  flex-wrap: wrap;
-   border: #1f1f1f1f 1px solid;
-   max-width: 50%;
-   height: 50%;
-}
+
 /* ------------------------------------------------droite activite------------------------------------------------------- */
 .droite{
   display: flex;
@@ -87,11 +163,7 @@ header .nav a{
     display: flex;
 }
 
-.rate{
-    background: #fff;
-    width: 200px ;
-    border-radius: 5px;
-}
+
 
 
 
