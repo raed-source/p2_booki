@@ -1,209 +1,196 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family:'Raleway', sans-serif;
-    text-decoration: none;
-    outline: none;
-    text-transform: capitalize;
-    transition: all .2s linear;
+@font-face {
+  font-family: "Raleway";
+  src: url("/fonts/Raleway-Regular.ttf") format("truetype");
+}
 
+:root {
+  --main-color: #0065fc;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  outline: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
 }
 /*--------------------------------------------------header---------------------------------------------------------------------------------*/
-header{
-    /*position: fixed;*/
-    top: 0;left: 0; right: 0;
-    background: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 7%;
-    z-index: 1000;
+header {
+  /*position: fixed;*/
+  max-width: 1330px;
+  margin: 0 auto;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-header .nav a{
-    padding: 10px 10px;
-    border-radius: 10px;
+header .nav a {
+  padding: 10px 10px;
+  border-radius: 10px;
 }
 /*---------------------------------------------slogan--------------------------------------------------------------------------------------------------- */
-.slogan{
+.slogan {
   padding: 20px 20px;
 }
 
-/* ---------------------------------------------form recherche ----------------------------------------------------------------------------- */
-.search {
-display: flex;
-width: 400px;
-border-radius: 10px;
+/* ---------------------------------------------form recherche emplacement----------------------------------------------------------------------------- */
+.form_search {
+  display: flex;
 }
-.emplacement{
-    border-radius: 10px 0 0 10px;
-    width: 50px;
-    height: 50px;
-    background-color: #f2f2f2;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+.emplacement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background: #f2f2f2;
+  border-radius: 10px 0 0 10px;
 }
-.search input{
-    height:50px;
-    text-decoration: none;
-}
-icon{
-}
-.btn{
-    width: 100px;
-    height: 50px;
-    background-color:rgb(180, 180, 233) ;
-    border:1px solid rgb(180, 180, 233);
-    border-radius: 0 10px 10px 0px ;
+.btn {
+  width: 100px;
+  height: 50px;
+  border: none;
+  background: var(--main-color);
+  border-radius: 0 10px 10px 0px;
 }
 /* ---------------------------------------------------filtre-------------------------------------------------------------------------- */
-.filtre {
-    display:flex;
-   
-    
+.filtre  {
+  border: 2px solid;
+  border-radius: 10px;
+  width: 75%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
 }
-.titre{
-display: flex;
-align-items: center;
-}
-.filtre .fil{
-    padding: 20px 10px;
-    margin: 10px 10px;
-    border: 3px #f2f2f2 solid;
-    border-radius: 40px  ;
-    width: 230px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-}
-.filtre span{
-    margin: 15px;
-}
-.filtre .fil_icon{
-    background-color: #f2f2f2;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    margin: -11px  ;
-    padding: 20px;
-}
-
-/* --------------------------------------------------para_icon------------------------------------------------------------------------- */
-.para{
-display: flex;
-align-items: center;
-}
-.para p{
-
-}
-.para .para_icon{
-width: 25px;
-height: 25px;
-color: #0065fc;
-border: 1px rgb(180, 180, 233) solid;
-border-radius: 50px;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-/* -------------------------------------------------partie top gauche et adroite---------------------------------------------------------------------------*/
-.gauche {
-    background-color: #f2f2f2;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    max-width: 60%;
-    height: 50%;
- }
-.image{
-    width: 30%;
-    height: auto;
-    border-radius: 20px;
-    background-color: white;
-    padding: 1%;
-}
-.image img{
-    object-fit: cover;
-    width: 100%;
-    height: 120px;
-    border-radius: 15px 15px 0 0;
-}
-.image .rate{
-    width: 90%;
-    display: block;
-    padding: 5px;
-}
-
-
-.checked{
-    color: rgb(147, 138, 228);
+/* -------------------------------------------------partie header menu logo haut fini---------------------------------------------------------------------------*/
+.checked {
+  color: rgb(147, 138, 228);
 }
 /* ---------------------------------------------------main hebergement activite----------------------------- */
-.main{
-  display:flex ;
+.main {
+  max-width: 1330px;
+  margin: 0 auto;
 }
 /* -----------------------------------------------------bas--------------------------------------------------- */
-.bas{
-    display: flex;
-    justify-content: space-around;
+.bas {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.top-part {
+  display: flex;
 }
 /* ---------------------------------------------------gauche hebergement--------------------------------------*/
-
-/* ------------------------------------------------droite activite------------------------------------------------------- */
-.droite{
+.gauche {
+  background-color: #f2f2f2;
+  border-radius: 25px;
+  padding: 35px;
   display: flex;
-  justify-content:;
-}
-.image_droite{
-    display: flex;
-}
-
-
-
-
-
-footer{
-    flex-shrink: 0;
-    border-top: 1px;
-    width: 100%;
-    background:#1f1f1f1f ;
-    color: #333;
-}
-.contenu_footer{
-    width: 1200px;
-    margin: 0 auto;
-    display:flex ;
-    justify-content:center ;
-    align-items:flex-start ;
-    font-size: 20px ;
-    padding:50px 0 100px ;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
 }
 
+.image {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border: 8px solid white;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
 
+.image img {
+  width: 100%;
+  object-fit: cover;
+  height: 115px;
+}
+/* ------------------------------------------------droite activite------------------------------------------------------- */
+.droite {
+  margin-left: 30px;
+  background-color: #f2f2f2;
+  border-radius: 25px;
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  padding: 35px;
+}
+.droite .image {
+  width: 100%;
+  flex-direction: row;
+}
 
-.col{
-    padding: 20px 100px;
+.droite .image img {
+  width: 50%;
+}
+
+.rate {
+  background: #fff;
+  width: 200px;
+  border-radius: 5px;
+}
+
+footer {
+  flex-shrink: 0;
+  border-top: 1px;
+  width: 100%;
+  background: #1f1f1f1f;
+  color: #333;
+}
+.contenu_footer {
+  width: 1330px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 20px;
+  padding: 50px 0 100px;
+}
+
+.col {
+  width: 33%;
 }
 .col li {
-    list-style-type: none;
-    padding: 5px;
-    
+  list-style-type: none;
+  padding: 5px;
 }
 .col a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
-.droite {
-    border: 1px gainsboro;
-    width: 30%;
-    padding: 26px 111px;
+.row {
+  display: flex;
 }
-.row{
-    display: flex;
+
+.filter {
+  display: flex;
+  align-items: center;
+  border: 3px solid grey;
+  border-radius: 25px;
+  height: 50px;
+
+  width: fit-content;
+}
+
+.filter .icone {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  background: #deebff;
+  border-radius: 50%;
+  margin: -3px;
+}
+
+.filter span {
+  padding: 0 10px;
 }
