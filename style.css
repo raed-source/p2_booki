@@ -19,7 +19,7 @@
 }
 /*--------------------------------------------------header---------------------------------------------------------------------------------*/
 header {
-  /*position: fixed;*/
+ 
   max-width: 1330px;
   margin: 0 auto;
   background: #fff;
@@ -30,15 +30,24 @@ header {
 header .nav a {
   padding: 10px 10px;
   border-radius: 10px;
+  color: #333;
+}
+.nav :nth-child(1){
+  color: #0065FC;
 }
 /*---------------------------------------------slogan--------------------------------------------------------------------------------------------------- */
 .slogan {
-  padding: 20px 20px;
+  margin: 1px 0px;
 }
+.slogan p{
+  padding: 20px 0px;
+}
+
 
 /* ---------------------------------------------form recherche emplacement----------------------------------------------------------------------------- */
 .form_search {
   display: flex;
+  margin-bottom: 30px;
 }
 .emplacement {
   display: flex;
@@ -51,27 +60,39 @@ header .nav a {
   border-radius: 10px 0 0 10px;
 }
 .btn {
-  width: 100px;
+  width: 150px;
   height: 50px;
   border: none;
   background: var(--main-color);
   border-radius: 0 10px 10px 0px;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
 }
+input[type="text"] {
+  border: 1px solid #f2f2f2;
+  color: #333;
+  tex
+}
+
 /* ---------------------------------------------------filtre-------------------------------------------------------------------------- */
 .filt {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 75%;
+  margin-bottom: 50px;
 }
 .filter {
   display: flex;
   align-items: center;
-  border: 3px solid grey;
+  border: 3px solid #F2F2F2;
   border-radius: 25px;
-
+  color: rgb(24, 5, 5);
+  ;
   height: 50px;
-  /* width : fit-content */
-  width: 200px;
+   width : fit-content;
+   font-weight: bold;
 }
 
 .filter .icone {
@@ -88,6 +109,9 @@ header .nav a {
 .filter span {
   padding: 0 10px;
 }
+.fas{
+  color: #0065FC;
+}
 /* -------------------------------------------------partie header menu logo haut fini---------------------------------------------------------------------------*/
 .checked {
   color: rgb(147, 138, 228);
@@ -97,7 +121,14 @@ header .nav a {
   max-width: 1330px;
   margin: 0 auto;
 }
-
+/* -------------------titre_droite------------- */
+.titre_droite{
+  display: flex;
+  margin: 50px 0px;
+}
+.titre_droite p{
+  padding: 0px 10px;
+}
 /* -------------------top part--------------- */
 .top-part {
   display: flex;
@@ -183,13 +214,15 @@ header .nav a {
 
 
 /* -----------------------------------------------------bas--------------------------------------------------- */
-/* .bas {
+#titre_bas{
+  margin: 50px 0px 20px 0px;
+}
+.bas {
   display: flex;
   justify-content: ;
   flex-wrap: ;
-  height: 600px;
-  width: 100%;
-} */
+ 
+}
 .bas  :nth-child(1) {
   width: 300px;
   height: 500px;

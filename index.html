@@ -7,6 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=no"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
@@ -28,11 +29,11 @@
       <header id="main-header">
         <!---------------------------------------logo------------------------------------------------------------------------------------------------------>
         <div id="logo" class="logo">
-          <img src="./images/Booki.png" alt="logo ire" title="ire" />
+          <img src="./images/Booki.png" alt="logo booki" title="booki" />
         </div>
         <!----------------------------------------nav--------------------------------------------------------------------------------------------------------->
         <nav id="main-nav" class="nav">
-          <a href="#">Hebergement</a>
+          <a href="#">Hébergement</a>
           <a href="#">Activités</a>
         </nav>
       </header>
@@ -46,8 +47,8 @@
 
         <form action="" class="form_search">
           <div class="emplacement"><i class="fas fa-map-marker-alt"></i></div>
-          <input type="text" placeholder="search" />
-          <button class="btn">search</button>
+          <input type="text" placeholder="Marseille, France"class="rechercher" />
+          <button class="btn">rechercher</button>
         </form>
         <!-- ------------------------------------------------------filtre form------------------------------------------------------------------------------>
         <div class="filt">
@@ -72,12 +73,16 @@
           </div>
           <div class="filter">
             <div class="icone">
-              <i class="fas fa-dog fa-lg filtre-icons"></i>
+              <i class="fas fa-heart fa-lg filtre-icons"></i>
             </div>
             <span>Animaux autorisés</span>
           </div>
         </div>
         <!------------------------------------------------------------main Hebergement--------------------------------------------------------------------------------->
+        <div class="titre_droite">
+          <div><i class="fas fa-info-circle"></i></div>
+          <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
         <div class="top-part">
           <section class="gauche">
             <div class="image">
@@ -226,6 +231,7 @@
         <!----------------------------------------------photo bas------------------------------>
 
         <section>
+          <div id="titre_bas"><h2>Activités à Marseille</h2></div>
           <div class="bas">
             <div class="image">
               <img
