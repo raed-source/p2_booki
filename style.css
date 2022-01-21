@@ -153,6 +153,8 @@ input[type="text"] {
   border-radius: 20px;
   overflow: hidden;
   margin-bottom: 30px;
+  box-shadow:2px 2px 2px 2px rgb(240, 234, 234);
+  shadow
 }
 
 .image img {
